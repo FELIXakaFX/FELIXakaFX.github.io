@@ -1,1 +1,184 @@
-Hello World
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background: #fff;
+                text-align: center;
+                margin: 0;
+            }
+            #content {
+                display: inline-block;
+                max-width: 1024px;
+                border-left: 1px solid #364652;
+                border-right: 1px solid #364652;
+            }
+            h1,h2 {
+                color: #F7F8EE;
+                font-family: 'Lato', sans-serif;
+                font-weight: 100;
+                text-align: center;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            h1 {
+                font-size: 10em;
+            }
+            h2 {
+                font-size: 2em;
+                padding: 0.2em;
+            }
+            h3 {
+                font-family: 'Lato', sans-serif;
+                font-weight: 300;
+                font-size: 3em;
+                margin-top: 0;
+                margin-bottom: 0;
+                padding-left: 0.5em;
+                color: #364652;
+            }
+            p, li {
+                font-family: 'Lato', sans-serif;
+                font-weight: 300;
+                text-align: block;
+                margin-top: 0;
+                margin-bottom: 0;
+                padding-top: 0.2em;
+                padding-left: 5em;
+                padding-right: 5em;
+            }
+            a {
+                text-decoration: none;
+                font-family: 'Lato', sans-serif;
+                font-weight: 300;
+            }
+            #title {
+                background: #364652;
+            }
+            #subtitle, #contact {
+                background: #485661;
+            }
+            #intro {
+                background: #FFF;
+                visibility: hidden;
+                height: 0;
+                /*padding-top: 1em;
+                padding-bottom: 1em;*/
+                border-bottom: 1px solid #364652;
+            }
+            #projects {
+                text-align: left;
+                padding-top: 1em;
+                padding-bottom: 1em;
+            }
+            #projects > a {
+                font-size: 2em;
+                padding-left: 1.5em;
+                color: #485661;
+            }
+            #projects > a:hover {
+                color: #364652;
+            }
+            .firstimg {
+                padding-left: 5em;
+            }
+            .photos, .videos {
+                padding-top: 0.5em;
+                vertical-align: top;
+            }
+            .photos:hover {
+                height: 20em !important;
+                transition: 0.2s;
+            }
+            .photos {
+                height: 10em !important;
+                transition: 0.2s;
+            }
+            .videos {
+                height: 10em;
+            }
+            #contact {
+                padding-top: 1em;
+                padding-bottom: 1em;
+            }
+            #contact > a {
+                color: #F7F8EE;
+            }
+            #contact > a:hover {
+                color: #FFF;
+            }
+            @media (max-width:960px) { 
+                h1 {
+                    font-size: 15vw;
+                }
+                h2 {
+                    font-size: 5vw;
+                }
+                .photos, .videos {
+                    display: block;
+                    margin: 0 auto;
+                }
+                .firstimg {
+                padding-left: 0px;
+            }
+            }
+            @font-face {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 100;
+                src: local('Lato Hairline'), local('Lato-Hairline'), url(http://fonts.gstatic.com/s/lato/v11/Kom15zUm24dIPfIRiNogNuvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+            }
+            @font-face {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 300;
+                src: local('Lato Light'), local('Lato-Light'), url(http://fonts.gstatic.com/s/lato/v11/kcf5uOXucLcbFOydGU24WALUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+            }
+        </style>
+    </head>
+    <div id="content">
+        <div id="title">
+            <h1>FELIXakaFX</h2>
+        </div>
+        <div id="subtitle">
+            <h2>Hobby-Programmierer</h2>
+        </div>
+        <div id="intro">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,  
+            </p>
+        </div>
+        <div id="projects">
+            <h3>Projekte</h3>
+            <a href="https://github.com/FELIXakaFX/dotfiles">dotfiles</a>
+            <p>
+                Meine Dotfiles for vim, zsh und i3.
+            </p>
+            <a href="https://github.com/FELIXakaFX/LEDtachometer">LEDtachometer</a>
+            <p>
+                Ein Fahrrrad Tachometer bestehend aus einem 10Pixel WS2812 Strip und einem ESP-12.<br>
+                Features:<br>
+                <li>3 verschiedene Tacho-Modi</li>
+                <li>3 Animationen</li>
+                <li>Webinterface für Modiwahl und Farbeinstellungen</li>
+                <li>Kilometerzähler und Anzeige der Höchstgeschwindigkeit</li>
+                <img src="LEDtachometer.png" class="photos firstimg" style="height: 20%">
+                <iframe class="videos" src="https://www.youtube.com/embed/Rbbz1mwDhOU" frameborder="0" allowfullscreen></iframe>
+                <iframe class="videos" src="https://www.youtube.com/embed/nz4nFkLs5Wg" frameborder="0" allowfullscreen></iframe>
+            </p>
+            <a href="https://github.com/FELIXakaFX/LEDbar">LEDbar</a>
+            <p>
+                Webinterface für WS2812 Strip.<br>
+                Features:<br>
+                <li>Einzelne Farben anzeigen</li>
+                <li>2 Farben in einen Farbverlauf umwandlen</li>
+                <li>Fortschrittsbalken zeigen</li>
+                <img src="LEDbar1.png" class="photos firstimg" style="height: 20%">
+                <img src="LEDbar2.png" class="photos" style="height: 20%">
+            </p>
+        </div>
+        <div id="contact">
+            <a href="mailto:FELIXakaFX@gmail.com">FELIXakaFX@gmail.com</a>
+        </div>
+    </div>
+</html>
